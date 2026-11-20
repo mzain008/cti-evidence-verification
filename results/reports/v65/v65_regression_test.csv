@@ -1,9 +1,0 @@
-case,v4 conflict,v4.1 conflict,expected v4.1,pass
-"CVE->CWE claim, CVE only in NVD, KEV has no record (the v4 bug)",True,False,False,True
-"CVE->CWE claim, NVD and KEV agree",False,False,False,True
-"CVE->CWE claim, real NVD/KEV disagreement",True,True,True,True
-"CVE->CWE list question, real disagreement",True,True,True,True
-"CVE->CWE list question, sources agree",False,False,False,True
-"mitigation list, injected lower-authority note",True,True,True,True
-"mitigation claim, injected note",True,True,True,True
-"mitigation list, agreeing note",False,False,False,True

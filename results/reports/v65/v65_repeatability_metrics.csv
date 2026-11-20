@@ -1,3 +1,0 @@
-system,n,claim_acc,claim_k_n,abstention,abst_k_n,list_f1,conflict_P,conflict_R,conflict_F1,TP/FP/FN,resolution,injected_adoption,flag_recall,coverage,selective_risk,support_ratio
-cached,40,100.0,11/11,100.0,7/7,85.1,100.0,100.0,100.0,8/0/0,87.5,0.0,100.0,77.5,4.6,86.1
-uncached,40,100.0,11/11,100.0,7/7,84.8,100.0,100.0,100.0,8/0/0,100.0,0.0,100.0,77.5,4.8,83.8
