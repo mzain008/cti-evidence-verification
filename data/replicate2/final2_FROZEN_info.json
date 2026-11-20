@@ -1,0 +1,19 @@
+{
+  "n_questions": 258,
+  "n_notes": 61,
+  "seed": 2028,
+  "excluded_entities (dev + stress + benchmark 1)": 683,
+  "shortfalls": {
+    "revoked": 1,
+    "rev4_rev5": 12,
+    "revoked/withdrawn/rev4_rev5 (filled with version_drift)": 13,
+    "version_drift": 17
+  },
+  "questions_md5": "63985e99e880cf7956da72fa4bbb7752",
+  "notes_md5": "4858830ea0d174bfe0cbfcbb917c211e",
+  "code_md5_at_build": {
+    "systems.py": "e76d4ad373c8f099d2622e7f83caa23c",
+    "final_bench.py": "a73c96beec5f2ae7392887cd45c18801",
+    "final_eval.py": "d7f40e92f4d55180ff21dea2157337ce"
+  }
+}
