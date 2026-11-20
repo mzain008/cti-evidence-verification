@@ -1,0 +1,9 @@
+model,system,questions,total calls,calls/q,questions with >1 call,calls: answer,calls: agent_step,calls: draft,calls: retype
+qwen2.5:7b-instruct,naive,275,275,1.0,0,275.0,0.0,0.0,0.0
+qwen2.5:7b-instruct,react_agent,275,695,2.527,275,0.0,420.0,275.0,0.0
+qwen2.5:7b-instruct,graph_verifier,275,277,1.007,2,0.0,0.0,275.0,2.0
+qwen2.5:7b-instruct,evidence_agent,275,697,2.535,275,0.0,420.0,275.0,2.0
+llama3.1:8b,naive,275,275,1.0,0,275.0,0.0,0.0,0.0
+llama3.1:8b,react_agent,275,943,3.429,275,0.0,668.0,275.0,0.0
+llama3.1:8b,graph_verifier,275,275,1.0,0,0.0,0.0,275.0,0.0
+llama3.1:8b,evidence_agent,275,943,3.429,275,0.0,668.0,275.0,0.0

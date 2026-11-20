@@ -1,0 +1,55 @@
+\begin{table}
+\caption{Evidence-Aware Agent vs each system, per track: paired tests, Holm-corrected within track}
+\label{tab:table_significance}
+\begin{tabular}{lllrrrrlrr}
+\toprule
+track & baseline & metric & n & ref\_mean & baseline\_mean & diff & test & p & p\_holm \\
+\midrule
+text & Corrective RAG & f1 & 20 & 0.500000 & 0.298600 & 0.201400 & perm & 0.061400 & 0.982400 \\
+text & Corrective RAG & uar & 12 & 0.333300 & 0.416700 & -0.083300 & perm & 1.000000 & 1.000000 \\
+text & Corrective RAG & evidence\_recall & 30 & 0.659100 & 0.436700 & 0.222400 & perm & 0.000700 & 0.014000 \\
+text & Corrective RAG & claim\_correct & 10 & 0.500000 & 0.200000 & 0.300000 & mcnemar & 0.375000 & 1.000000 \\
+text & KG-RAG & f1 & 20 & 0.500000 & 0.431900 & 0.068100 & perm & 0.440600 & 1.000000 \\
+text & KG-RAG & uar & 17 & 0.411800 & 0.441200 & -0.029400 & perm & 1.000000 & 1.000000 \\
+text & KG-RAG & evidence\_recall & 30 & 0.659100 & 0.560000 & 0.099100 & perm & 0.033000 & 0.561000 \\
+text & KG-RAG & claim\_correct & 10 & 0.500000 & 0.100000 & 0.400000 & mcnemar & 0.218800 & 1.000000 \\
+text & Multi-hop RAG & f1 & 20 & 0.500000 & 0.470000 & 0.030000 & perm & 1.000000 & 1.000000 \\
+text & Multi-hop RAG & uar & 13 & 0.230800 & 0.230800 & 0.000000 & perm & 1.000000 & 1.000000 \\
+text & Multi-hop RAG & evidence\_recall & 30 & 0.659100 & 0.516700 & 0.142400 & perm & 0.011500 & 0.207000 \\
+text & Multi-hop RAG & claim\_correct & 10 & 0.500000 & 0.400000 & 0.100000 & mcnemar & 1.000000 & 1.000000 \\
+text & Naive RAG & f1 & 20 & 0.500000 & 0.398600 & 0.101400 & perm & 0.257100 & 1.000000 \\
+text & Naive RAG & uar & 14 & 0.428600 & 0.357100 & 0.071400 & perm & 1.000000 & 1.000000 \\
+text & Naive RAG & evidence\_recall & 30 & 0.659100 & 0.436700 & 0.222400 & perm & 0.000700 & 0.014000 \\
+text & Naive RAG & claim\_correct & 10 & 0.500000 & 0.000000 & 0.500000 & mcnemar & 0.062500 & 0.982400 \\
+text & ReAct agent (no verif.) & f1 & 20 & 0.500000 & 0.525000 & -0.025000 & perm & 1.000000 & 1.000000 \\
+text & ReAct agent (no verif.) & uar & 17 & 0.411800 & 0.372500 & 0.039200 & perm & 1.000000 & 1.000000 \\
+text & ReAct agent (no verif.) & evidence\_recall & 30 & 0.659100 & 0.659100 & 0.000000 & perm & 1.000000 & 1.000000 \\
+text & ReAct agent (no verif.) & claim\_correct & 10 & 0.500000 & 0.100000 & 0.400000 & mcnemar & 0.125000 & 1.000000 \\
+evidence & Corrective RAG & f1 & 29 & 0.938800 & 0.754500 & 0.184300 & perm & 0.024700 & 0.395200 \\
+evidence & Corrective RAG & uar & 28 & 0.000000 & 0.211300 & -0.211300 & perm & 0.007700 & 0.138600 \\
+evidence & Corrective RAG & evidence\_recall & 49 & 1.000000 & 0.784700 & 0.215300 & perm & 0.000000 & 0.000000 \\
+evidence & Corrective RAG & claim\_correct & 20 & 1.000000 & 0.450000 & 0.550000 & mcnemar & 0.001000 & 0.019500 \\
+evidence & Corrective RAG & stale\_adoption & 12 & 0.000000 & 0.166700 & -0.166700 & perm & 0.502700 & 1.000000 \\
+evidence & KG-RAG & f1 & 29 & 0.938800 & 0.846000 & 0.092800 & perm & 0.153900 & 1.000000 \\
+evidence & KG-RAG & uar & 26 & 0.000000 & 0.038500 & -0.038500 & perm & 0.509200 & 1.000000 \\
+evidence & KG-RAG & evidence\_recall & 49 & 1.000000 & 1.000000 & 0.000000 & perm & 1.000000 & 1.000000 \\
+evidence & KG-RAG & claim\_correct & 20 & 1.000000 & 0.400000 & 0.600000 & mcnemar & 0.000500 & 0.010300 \\
+evidence & KG-RAG & stale\_adoption & 12 & 0.000000 & 0.166700 & -0.166700 & perm & 0.496000 & 1.000000 \\
+evidence & Multi-hop RAG & f1 & 29 & 0.938800 & 0.743700 & 0.195100 & perm & 0.016800 & 0.285600 \\
+evidence & Multi-hop RAG & uar & 25 & 0.000000 & 0.106700 & -0.106700 & perm & 0.125900 & 1.000000 \\
+evidence & Multi-hop RAG & evidence\_recall & 49 & 1.000000 & 0.826200 & 0.173800 & perm & 0.000000 & 0.000000 \\
+evidence & Multi-hop RAG & claim\_correct & 20 & 1.000000 & 0.550000 & 0.450000 & mcnemar & 0.003900 & 0.074200 \\
+evidence & Multi-hop RAG & stale\_adoption & 12 & 0.000000 & 0.166700 & -0.166700 & perm & 0.501100 & 1.000000 \\
+evidence & Naive RAG & f1 & 29 & 0.938800 & 0.828000 & 0.110800 & perm & 0.110300 & 1.000000 \\
+evidence & Naive RAG & uar & 29 & 0.000000 & 0.142900 & -0.142900 & perm & 0.029100 & 0.436500 \\
+evidence & Naive RAG & evidence\_recall & 49 & 1.000000 & 0.784700 & 0.215300 & perm & 0.000000 & 0.000000 \\
+evidence & Naive RAG & claim\_correct & 20 & 1.000000 & 0.300000 & 0.700000 & mcnemar & 0.000100 & 0.002700 \\
+evidence & Naive RAG & stale\_adoption & 12 & 0.000000 & 0.166700 & -0.166700 & perm & 0.501100 & 1.000000 \\
+evidence & ReAct agent (no verif.) & f1 & 29 & 0.938800 & 0.934200 & 0.004600 & perm & 1.000000 & 1.000000 \\
+evidence & ReAct agent (no verif.) & uar & 29 & 0.000000 & 0.011500 & -0.011500 & perm & 1.000000 & 1.000000 \\
+evidence & ReAct agent (no verif.) & evidence\_recall & 49 & 1.000000 & 0.982700 & 0.017300 & perm & 0.489100 & 1.000000 \\
+evidence & ReAct agent (no verif.) & claim\_correct & 20 & 1.000000 & 0.700000 & 0.300000 & mcnemar & 0.031200 & 0.437500 \\
+evidence & ReAct agent (no verif.) & stale\_adoption & 12 & 0.000000 & 0.000000 & 0.000000 & perm & 1.000000 & 1.000000 \\
+\bottomrule
+\end{tabular}
+\end{table}

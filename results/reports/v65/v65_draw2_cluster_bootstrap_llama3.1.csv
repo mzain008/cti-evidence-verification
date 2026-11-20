@@ -1,0 +1,6 @@
+metric,n_questions,n_clusters,system 1,mean 1,95% CI 1,system 2,mean 2,95% CI 2,diff (1-2),diff 95% CI,diff 90% CI,margin,"equivalent (TOST, 90% CI inside margin)"
+list_f1,116,12,evidence_agent_v11,93.1,89.3-96.5,graph_verifier_v11,89.7,78.5-96.9,3.3,-2.8 to 12.8,-2.3 to 10.9,±5,no
+claim_correct,106,7,evidence_agent_v11,100.0,100.0-100.0,graph_verifier_v11,100.0,100.0-100.0,0.0,0.0 to 0.0,0.0 to 0.0,±3,yes
+abstain_correct,50,5,evidence_agent_v11,100.0,100.0-100.0,graph_verifier_v11,100.0,100.0-100.0,0.0,0.0 to 0.0,0.0 to 0.0,±3,yes
+resolution_correct,50,4,evidence_agent_v11,88.0,67.9-100.0,graph_verifier_v11,88.0,76.0-100.0,0.0,-10.7 to 10.7,-9.1 to 9.1,±10,yes
+conflict_detect_correct,258,23,evidence_agent_v11,100.0,100.0-100.0,graph_verifier_v11,100.0,100.0-100.0,0.0,0.0 to 0.0,0.0 to 0.0,±3,yes

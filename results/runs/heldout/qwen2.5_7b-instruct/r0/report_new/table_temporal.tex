@@ -1,0 +1,45 @@
+\begin{table}
+\caption{Outdated and conflicting evidence (%)}
+\label{tab:table_temporal}
+\begin{tabular}{llrrrrrrr}
+\toprule
+system & subtype & n & f1 & recall & stale\_adoption & flag\_correct & staleness\_aware & replacement\_found \\
+\midrule
+Corrective RAG & nvd\_kev & 3 & 82.200000 & 72.200000 & NaN & 0.000000 & 0.000000 & NaN \\
+Corrective RAG & rev4\_rev5 & 3 & 66.700000 & 66.700000 & 0.000000 & 0.000000 & 0.000000 & NaN \\
+Corrective RAG & revoked & 5 & 60.000000 & 60.000000 & 0.000000 & 0.000000 & 40.000000 & 40.000000 \\
+Corrective RAG & version\_drift & 5 & 89.300000 & 83.300000 & 0.000000 & NaN & NaN & NaN \\
+Corrective RAG & withdrawn & 3 & 100.000000 & 100.000000 & 0.000000 & 100.000000 & 100.000000 & 100.000000 \\
+Evidence-Aware Agent & nvd\_kev & 3 & 100.000000 & 100.000000 & NaN & 100.000000 & 100.000000 & NaN \\
+Evidence-Aware Agent & rev4\_rev5 & 3 & 87.600000 & 79.200000 & 0.000000 & 100.000000 & 100.000000 & NaN \\
+Evidence-Aware Agent & revoked & 5 & 100.000000 & 100.000000 & 0.000000 & 100.000000 & 100.000000 & 100.000000 \\
+Evidence-Aware Agent & version\_drift & 5 & 77.300000 & 63.300000 & 0.000000 & NaN & NaN & NaN \\
+Evidence-Aware Agent & withdrawn & 3 & 100.000000 & 100.000000 & 0.000000 & 100.000000 & 100.000000 & 100.000000 \\
+Graph oracle (no LLM) & nvd\_kev & 3 & 100.000000 & 100.000000 & NaN & 0.000000 & 0.000000 & NaN \\
+Graph oracle (no LLM) & rev4\_rev5 & 3 & 100.000000 & 100.000000 & 0.000000 & 0.000000 & 0.000000 & NaN \\
+Graph oracle (no LLM) & revoked & 5 & 100.000000 & 100.000000 & 0.000000 & 100.000000 & 100.000000 & 0.000000 \\
+Graph oracle (no LLM) & version\_drift & 5 & 100.000000 & 100.000000 & 0.000000 & NaN & NaN & NaN \\
+Graph oracle (no LLM) & withdrawn & 3 & 100.000000 & 100.000000 & 0.000000 & 100.000000 & 100.000000 & 100.000000 \\
+KG-RAG & nvd\_kev & 3 & 71.100000 & 55.600000 & NaN & 0.000000 & 0.000000 & NaN \\
+KG-RAG & rev4\_rev5 & 3 & 65.400000 & 64.300000 & 0.000000 & 66.700000 & 66.700000 & NaN \\
+KG-RAG & revoked & 5 & 93.300000 & 100.000000 & 20.000000 & 20.000000 & 60.000000 & 60.000000 \\
+KG-RAG & version\_drift & 5 & 84.000000 & 73.300000 & 0.000000 & NaN & NaN & NaN \\
+KG-RAG & withdrawn & 3 & 100.000000 & 100.000000 & 0.000000 & 100.000000 & 100.000000 & 100.000000 \\
+Multi-hop RAG & nvd\_kev & 3 & 82.200000 & 72.200000 & NaN & 0.000000 & 0.000000 & NaN \\
+Multi-hop RAG & rev4\_rev5 & 3 & 33.300000 & 33.300000 & 0.000000 & 66.700000 & 66.700000 & NaN \\
+Multi-hop RAG & revoked & 5 & 100.000000 & 100.000000 & 0.000000 & 80.000000 & 100.000000 & 80.000000 \\
+Multi-hop RAG & version\_drift & 5 & 92.000000 & 86.700000 & 0.000000 & NaN & NaN & NaN \\
+Multi-hop RAG & withdrawn & 3 & 66.700000 & 66.700000 & 0.000000 & 100.000000 & 100.000000 & 100.000000 \\
+Naive RAG & nvd\_kev & 3 & 82.200000 & 72.200000 & NaN & 0.000000 & 0.000000 & NaN \\
+Naive RAG & rev4\_rev5 & 3 & 81.500000 & 76.200000 & 0.000000 & 0.000000 & 0.000000 & NaN \\
+Naive RAG & revoked & 5 & 100.000000 & 100.000000 & 0.000000 & 60.000000 & 100.000000 & 80.000000 \\
+Naive RAG & version\_drift & 5 & 92.000000 & 86.700000 & 0.000000 & NaN & NaN & NaN \\
+Naive RAG & withdrawn & 3 & 100.000000 & 100.000000 & 0.000000 & 100.000000 & 100.000000 & 100.000000 \\
+ReAct agent (no verif.) & nvd\_kev & 3 & 100.000000 & 100.000000 & NaN & 100.000000 & 100.000000 & NaN \\
+ReAct agent (no verif.) & rev4\_rev5 & 3 & 61.500000 & 57.800000 & 0.000000 & 100.000000 & 100.000000 & NaN \\
+ReAct agent (no verif.) & revoked & 5 & 100.000000 & 100.000000 & 0.000000 & 100.000000 & 100.000000 & 100.000000 \\
+ReAct agent (no verif.) & version\_drift & 5 & 77.300000 & 63.300000 & 0.000000 & NaN & NaN & NaN \\
+ReAct agent (no verif.) & withdrawn & 3 & 100.000000 & 100.000000 & 0.000000 & 100.000000 & 100.000000 & 100.000000 \\
+\bottomrule
+\end{tabular}
+\end{table}

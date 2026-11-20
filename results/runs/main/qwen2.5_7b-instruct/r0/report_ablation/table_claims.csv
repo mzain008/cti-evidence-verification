@@ -1,0 +1,29 @@
+system,subtype,n,claim_correct,false_support,nei_recall
+− authority,claim_behaviour,10,100.0,0.0,
+− authority,claim_has_weakness,10,100.0,0.0,
+− authority,claim_mapped_control,10,100.0,0.0,
+− authority,claim_maps_to_attack,10,100.0,0.0,
+− authority,claim_mitigated_by,10,100.0,0.0,
+− authority,claim_name,10,90.0,0.0,
+− authority,claim_nei,10,100.0,,100.0
+− graph tools,claim_behaviour,10,100.0,0.0,
+− graph tools,claim_has_weakness,10,80.0,20.0,
+− graph tools,claim_mapped_control,10,40.0,20.0,
+− graph tools,claim_maps_to_attack,10,90.0,0.0,
+− graph tools,claim_mitigated_by,10,100.0,0.0,
+− graph tools,claim_name,10,80.0,0.0,
+− graph tools,claim_nei,10,100.0,,100.0
+− temporal,claim_behaviour,10,90.0,16.7,
+− temporal,claim_has_weakness,10,100.0,0.0,
+− temporal,claim_mapped_control,10,100.0,0.0,
+− temporal,claim_maps_to_attack,10,100.0,0.0,
+− temporal,claim_mitigated_by,10,100.0,0.0,
+− temporal,claim_name,10,70.0,0.0,
+− temporal,claim_nei,10,100.0,,100.0
+Evidence-Aware Agent,claim_behaviour,10,100.0,0.0,
+Evidence-Aware Agent,claim_has_weakness,10,100.0,0.0,
+Evidence-Aware Agent,claim_mapped_control,10,100.0,0.0,
+Evidence-Aware Agent,claim_maps_to_attack,10,100.0,0.0,
+Evidence-Aware Agent,claim_mitigated_by,10,100.0,0.0,
+Evidence-Aware Agent,claim_name,10,90.0,0.0,
+Evidence-Aware Agent,claim_nei,10,100.0,,100.0

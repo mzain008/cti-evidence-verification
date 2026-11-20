@@ -1,0 +1,11 @@
+model,metric,n,C-B,CI low,CI high
+qwen2.5:7b-instruct,list_f1,116,0.2,-1.8,2.3
+qwen2.5:7b-instruct,claim_correct,106,0.0,0.0,0.0
+qwen2.5:7b-instruct,conflict_detect_correct,258,0.4,-1.6,2.3
+qwen2.5:7b-instruct,resolution_correct,50,0.0,0.0,0.0
+qwen2.5:7b-instruct,abstain_correct,50,0.0,0.0,0.0
+llama3.1:8b,list_f1,116,3.3,-0.8,8.1
+llama3.1:8b,claim_correct,106,0.0,0.0,0.0
+llama3.1:8b,conflict_detect_correct,258,0.0,0.0,0.0
+llama3.1:8b,resolution_correct,50,0.0,-10.0,10.0
+llama3.1:8b,abstain_correct,50,0.0,0.0,0.0

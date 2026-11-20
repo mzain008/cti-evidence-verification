@@ -1,0 +1,18 @@
+{"answer": "abstain: question needs language understanding", "ids": [], "verdict": null, "flags": [], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.0002853870391845703, "qid": "ate-0028"}
+{"answer": "", "ids": ["M1022", "M1038"], "verdict": null, "flags": [], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.00021409988403320312, "qid": "mitigation-0025"}
+{"answer": "abstain: question needs language understanding", "ids": [], "verdict": null, "flags": [], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.00018262863159179688, "qid": "attribution-0030"}
+{"answer": "abstain: no identifiers to look up", "ids": [], "verdict": null, "flags": [], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.00014209747314453125, "qid": "claim_t-0052"}
+{"answer": "", "ids": [], "verdict": "UNSUPPORTED", "flags": [], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.0005970001220703125, "qid": "claim-0086"}
+{"answer": "", "ids": [], "verdict": "SUPPORTED", "flags": [], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.0002105236053466797, "qid": "claim-0011"}
+{"answer": "", "ids": [], "verdict": "UNSUPPORTED", "flags": [], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.00041174888610839844, "qid": "claim-0087"}
+{"answer": "", "ids": [], "verdict": "UNSUPPORTED", "flags": [], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.0001323223114013672, "qid": "claim-0065"}
+{"answer": "abstain: no identifiers to look up", "ids": [], "verdict": null, "flags": [], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.00013637542724609375, "qid": "claim_n-0115"}
+{"answer": "", "ids": [], "verdict": "NOT_ENOUGH_INFO", "flags": [], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.00016379356384277344, "qid": "claim-0098"}
+{"answer": "", "ids": ["AC-3", "AC-4", "CA-7", "CM-2", "CM-6", "CM-7", "SC-7", "SI-10", "SI-15", "SI-3", "SI-4"], "verdict": null, "flags": [], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.00023126602172851562, "qid": "mitigation-0085"}
+{"answer": "", "ids": ["CWE-189", "CWE-190"], "verdict": null, "flags": [], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.00010704994201660156, "qid": "temporal-0104"}
+{"answer": "abstain: question needs language understanding", "ids": [], "verdict": null, "flags": [], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.0001628398895263672, "qid": "rcm-0175"}
+{"answer": "", "ids": ["AC-17", "AC-2", "AC-3", "AC-6", "CM-2", "CM-6", "SI-10", "SI-16", "SI-3", "SI-4", "SI-7"], "verdict": null, "flags": [], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.00016355514526367188, "qid": "temporal-0050"}
+{"answer": "", "ids": ["M1022", "M1026", "M1027", "M1042"], "verdict": null, "flags": ["REVOKED"], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.00019693374633789062, "qid": "temporal-0019"}
+{"answer": "abstain: question needs language understanding", "ids": [], "verdict": null, "flags": [], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.00012135505676269531, "qid": "tech_id-0061"}
+{"answer": "", "ids": ["M1018", "M1028", "M1038", "M1053"], "verdict": null, "flags": [], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.00023865699768066406, "qid": "temporal-0071"}
+{"answer": "", "ids": ["SR-9"], "verdict": null, "flags": ["WITHDRAWN"], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.00012373924255371094, "qid": "temporal-0042"}

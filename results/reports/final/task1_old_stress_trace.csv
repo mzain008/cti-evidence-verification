@@ -1,0 +1,7 @@
+system,n,retrieved,drafted_injected,verifier_rejected,adopted,code_detected,text_mentions_conflict,recognised,flag_conflict,recognised_not_flagged,flag_outdated_only,old metric (CONFLICT or OUTDATED)
+naive,40,40,5,0,5,0,2,14,12,2,18,30
+kg_rag,40,40,5,0,5,0,1,4,3,1,16,19
+crag,40,40,4,0,4,0,1,1,1,0,7,8
+react_agent,40,40,0,0,0,0,0,0,0,0,7,7
+evidence_agent,40,40,0,0,0,0,0,0,0,0,7,7
+agent_no_authority,40,40,0,0,0,0,0,0,0,0,7,7

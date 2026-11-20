@@ -1,0 +1,37 @@
+\begin{table}
+\caption{Evidence-Aware Agent vs each system, per track: paired tests, Holm-corrected within track}
+\label{tab:table_significance}
+\begin{tabular}{lllrrrrlrr}
+\toprule
+track & baseline & metric & n & ref\_mean & baseline\_mean & diff & test & p & p\_holm \\
+\midrule
+text & − authority & f1 & 40 & 0.396800 & 0.396800 & 0.000000 & perm & 1.000000 & 1.000000 \\
+text & − authority & uar & 38 & 0.496700 & 0.496700 & 0.000000 & perm & 1.000000 & 1.000000 \\
+text & − authority & evidence\_recall & 60 & 0.473400 & 0.473400 & 0.000000 & perm & 1.000000 & 1.000000 \\
+text & − authority & claim\_correct & 20 & 0.950000 & 0.950000 & 0.000000 & mcnemar & 1.000000 & 1.000000 \\
+text & − graph tools & f1 & 40 & 0.396800 & 0.386700 & 0.010000 & perm & 0.500600 & 1.000000 \\
+text & − graph tools & uar & 36 & 0.468800 & 0.486100 & -0.017400 & perm & 0.626000 & 1.000000 \\
+text & − graph tools & evidence\_recall & 60 & 0.473400 & 0.553700 & -0.080300 & perm & 0.005000 & 0.060000 \\
+text & − graph tools & claim\_correct & 20 & 0.950000 & 0.900000 & 0.050000 & mcnemar & 1.000000 & 1.000000 \\
+text & − temporal & f1 & 40 & 0.396800 & 0.377500 & 0.019300 & perm & 0.185100 & 1.000000 \\
+text & − temporal & uar & 36 & 0.496500 & 0.537000 & -0.040500 & perm & 0.131600 & 1.000000 \\
+text & − temporal & evidence\_recall & 60 & 0.473400 & 0.461100 & 0.012300 & perm & 0.529500 & 1.000000 \\
+text & − temporal & claim\_correct & 20 & 0.950000 & 0.800000 & 0.150000 & mcnemar & 0.250000 & 1.000000 \\
+evidence & − authority & f1 & 70 & 0.939500 & 0.911000 & 0.028600 & perm & 0.031400 & 0.314000 \\
+evidence & − authority & uar & 70 & 0.000000 & 0.000000 & 0.000000 & perm & 1.000000 & 1.000000 \\
+evidence & − authority & evidence\_recall & 110 & 1.000000 & 1.000000 & 0.000000 & perm & 1.000000 & 1.000000 \\
+evidence & − authority & claim\_correct & 50 & 1.000000 & 1.000000 & 0.000000 & mcnemar & 1.000000 & 1.000000 \\
+evidence & − authority & stale\_adoption & 34 & 0.000000 & 0.000000 & 0.000000 & perm & 1.000000 & 1.000000 \\
+evidence & − graph tools & f1 & 70 & 0.939500 & 0.685900 & 0.253600 & perm & 0.000000 & 0.000000 \\
+evidence & − graph tools & uar & 70 & 0.000000 & 0.004800 & -0.004800 & perm & 1.000000 & 1.000000 \\
+evidence & − graph tools & evidence\_recall & 110 & 1.000000 & 0.872300 & 0.127700 & perm & 0.000000 & 0.000000 \\
+evidence & − graph tools & claim\_correct & 50 & 1.000000 & 0.820000 & 0.180000 & mcnemar & 0.003900 & 0.043000 \\
+evidence & − graph tools & stale\_adoption & 34 & 0.000000 & 0.029400 & -0.029400 & perm & 1.000000 & 1.000000 \\
+evidence & − temporal & f1 & 70 & 0.939500 & 0.846500 & 0.093100 & perm & 0.000500 & 0.006000 \\
+evidence & − temporal & uar & 65 & 0.000000 & 0.004600 & -0.004600 & perm & 0.489500 & 1.000000 \\
+evidence & − temporal & evidence\_recall & 110 & 1.000000 & 0.920900 & 0.079100 & perm & 0.000000 & 0.000000 \\
+evidence & − temporal & claim\_correct & 50 & 1.000000 & 1.000000 & 0.000000 & mcnemar & 1.000000 & 1.000000 \\
+evidence & − temporal & stale\_adoption & 34 & 0.000000 & 0.058800 & -0.058800 & perm & 0.498300 & 1.000000 \\
+\bottomrule
+\end{tabular}
+\end{table}

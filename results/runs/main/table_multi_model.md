@@ -1,0 +1,18 @@
+**Main metrics per model (mean ± SD over repeats, %)**
+
+| model               | system                  | evidence:f1   | evidence:stale_adoption   | evidence:uar   | text:claim_correct   | text:f1    |
+|:--------------------|:------------------------|:--------------|:--------------------------|:---------------|:---------------------|:-----------|
+| llama3.1:8b         | Graph oracle (no LLM)   | 100.0 ± 0.0   | 0.0 ± 0.0                 | 0.0 ± 0.0      | 0.0 ± 0.0            | 0.0 ± 0.0  |
+| llama3.1:8b         | Naive RAG               | 82.1 ± 1.7    | 17.6 ± 5.1                | 12.9 ± 0.5     | 26.7 ± 2.9           | 33.5 ± 2.5 |
+| llama3.1:8b         | KG-RAG                  | 83.3 ± 2.7    | 11.8 ± 2.9                | 3.4 ± 2.1      | 21.7 ± 11.5          | 38.4 ± 1.2 |
+| llama3.1:8b         | Multi-hop RAG           | 76.4 ± 2.0    | 9.8 ± 1.7                 | 5.4 ± 0.3      | 58.3 ± 2.9           | 37.3 ± 2.8 |
+| llama3.1:8b         | Corrective RAG          | 61.1 ± 10.0   | 17.6 ± 8.8                | 32.3 ± 7.7     | 35.0 ± 5.0           | 31.6 ± 4.1 |
+| llama3.1:8b         | ReAct agent (no verif.) | 90.2 ± 2.6    | 1.0 ± 1.7                 | 2.4 ± 0.9      | 36.7 ± 14.4          | 40.1 ± 1.8 |
+| llama3.1:8b         | Evidence-Aware Agent    | 91.6 ± 1.5    | 0.0 ± 0.0                 | 0.0 ± 0.0      | 70.0 ± 8.7           | 40.0 ± 2.0 |
+| qwen2.5:7b-instruct | Graph oracle (no LLM)   | 100.0 ± 0.0   | 0.0 ± 0.0                 | 0.0 ± 0.0      | 0.0 ± 0.0            | 0.0 ± 0.0  |
+| qwen2.5:7b-instruct | Naive RAG               | 88.8 ± 0.9    | 5.9 ± 2.9                 | 4.0 ± 1.1      | 80.0 ± 0.0           | 38.1 ± 1.4 |
+| qwen2.5:7b-instruct | KG-RAG                  | 90.7 ± 1.3    | 5.9 ± 0.0                 | 0.9 ± 0.0      | 81.7 ± 2.9           | 39.8 ± 0.4 |
+| qwen2.5:7b-instruct | Multi-hop RAG           | 79.8 ± 2.4    | 4.9 ± 1.7                 | 2.4 ± 0.5      | 71.7 ± 2.9           | 31.1 ± 4.9 |
+| qwen2.5:7b-instruct | Corrective RAG          | 66.3 ± 1.7    | 1.0 ± 1.7                 | 22.3 ± 1.5     | 73.3 ± 2.9           | 28.1 ± 3.2 |
+| qwen2.5:7b-instruct | ReAct agent (no verif.) | 90.9 ± 0.5    | 3.9 ± 3.4                 | 0.2 ± 0.2      | 83.3 ± 7.6           | 39.6 ± 0.9 |
+| qwen2.5:7b-instruct | Evidence-Aware Agent    | 93.6 ± 0.4    | 0.0 ± 0.0                 | 0.0 ± 0.0      | 88.3 ± 7.6           | 38.9 ± 0.8 |

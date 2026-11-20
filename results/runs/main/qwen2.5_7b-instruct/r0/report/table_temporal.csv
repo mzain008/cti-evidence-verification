@@ -1,0 +1,36 @@
+system,subtype,n,f1,recall,stale_adoption,flag_correct,staleness_aware,replacement_found
+Corrective RAG,nvd_kev,10,93.3,90.0,,0.0,0.0,
+Corrective RAG,rev4_rev5,10,49.7,49.3,0.0,10.0,10.0,
+Corrective RAG,revoked,10,42.6,38.5,0.0,40.0,50.0,30.0
+Corrective RAG,version_drift,10,84.8,80.8,0.0,,,
+Corrective RAG,withdrawn,10,80.0,80.0,0.0,100.0,100.0,80.0
+Evidence-Aware Agent,nvd_kev,10,100.0,100.0,,100.0,100.0,
+Evidence-Aware Agent,rev4_rev5,10,89.1,81.2,0.0,100.0,100.0,
+Evidence-Aware Agent,revoked,10,88.0,83.6,0.0,100.0,100.0,100.0
+Evidence-Aware Agent,version_drift,10,91.5,85.8,0.0,,,
+Evidence-Aware Agent,withdrawn,10,100.0,100.0,0.0,100.0,100.0,100.0
+Graph oracle (no LLM),nvd_kev,10,100.0,100.0,,0.0,0.0,
+Graph oracle (no LLM),rev4_rev5,10,100.0,100.0,0.0,0.0,0.0,
+Graph oracle (no LLM),revoked,10,100.0,100.0,0.0,100.0,100.0,0.0
+Graph oracle (no LLM),version_drift,10,100.0,100.0,0.0,,,
+Graph oracle (no LLM),withdrawn,10,100.0,100.0,0.0,100.0,100.0,100.0
+KG-RAG,nvd_kev,10,93.3,90.0,,0.0,0.0,
+KG-RAG,rev4_rev5,10,94.0,90.7,10.0,10.0,10.0,
+KG-RAG,revoked,10,83.8,75.1,0.0,40.0,60.0,50.0
+KG-RAG,version_drift,10,87.6,80.0,0.0,,,
+KG-RAG,withdrawn,10,96.7,100.0,10.0,100.0,100.0,100.0
+Multi-hop RAG,nvd_kev,10,80.0,70.0,,0.0,0.0,
+Multi-hop RAG,rev4_rev5,10,58.9,59.3,10.0,20.0,20.0,
+Multi-hop RAG,revoked,10,68.3,62.5,0.0,40.0,70.0,60.0
+Multi-hop RAG,version_drift,10,93.4,88.3,0.0,,,
+Multi-hop RAG,withdrawn,10,86.7,90.0,10.0,100.0,100.0,90.0
+Naive RAG,nvd_kev,10,80.0,70.0,,0.0,0.0,
+Naive RAG,rev4_rev5,10,97.6,96.7,10.0,20.0,20.0,
+Naive RAG,revoked,10,83.8,75.1,0.0,60.0,70.0,50.0
+Naive RAG,version_drift,10,91.4,85.0,0.0,,,
+Naive RAG,withdrawn,10,76.7,80.0,10.0,100.0,100.0,80.0
+ReAct agent (no verif.),nvd_kev,10,100.0,100.0,,100.0,100.0,
+ReAct agent (no verif.),rev4_rev5,10,71.4,66.7,20.0,100.0,100.0,
+ReAct agent (no verif.),revoked,10,88.0,83.6,0.0,100.0,100.0,100.0
+ReAct agent (no verif.),version_drift,10,91.5,85.8,0.0,,,
+ReAct agent (no verif.),withdrawn,10,100.0,100.0,0.0,100.0,100.0,100.0

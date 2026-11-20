@@ -1,0 +1,36 @@
+system,subtype,n,f1,recall,stale_adoption,flag_correct,staleness_aware,replacement_found
+Corrective RAG,nvd_kev,8,45.0,41.7,,0.0,0.0,
+Corrective RAG,rev4_rev5,8,100.0,100.0,0.0,0.0,0.0,
+Corrective RAG,revoked,10,69.3,69.3,0.0,10.0,30.0,20.0
+Corrective RAG,version_drift,10,82.0,80.4,50.0,,,
+Corrective RAG,withdrawn,8,8.3,12.5,62.5,100.0,100.0,50.0
+Evidence-Aware Agent,nvd_kev,8,72.1,58.3,,100.0,100.0,
+Evidence-Aware Agent,rev4_rev5,8,91.8,86.2,0.0,100.0,100.0,
+Evidence-Aware Agent,revoked,10,90.7,86.0,0.0,100.0,100.0,30.0
+Evidence-Aware Agent,version_drift,10,95.2,92.2,0.0,,,
+Evidence-Aware Agent,withdrawn,8,100.0,100.0,0.0,100.0,100.0,100.0
+Graph oracle (no LLM),nvd_kev,8,100.0,100.0,,0.0,0.0,
+Graph oracle (no LLM),rev4_rev5,8,100.0,100.0,0.0,0.0,0.0,
+Graph oracle (no LLM),revoked,10,100.0,100.0,0.0,100.0,100.0,0.0
+Graph oracle (no LLM),version_drift,10,100.0,100.0,0.0,,,
+Graph oracle (no LLM),withdrawn,8,100.0,100.0,0.0,100.0,100.0,100.0
+KG-RAG,nvd_kev,8,88.3,81.2,,0.0,0.0,
+KG-RAG,rev4_rev5,8,49.2,50.0,12.5,0.0,0.0,
+KG-RAG,revoked,10,69.3,69.3,10.0,0.0,10.0,10.0
+KG-RAG,version_drift,10,93.5,89.3,0.0,,,
+KG-RAG,withdrawn,8,89.6,100.0,25.0,100.0,100.0,100.0
+Multi-hop RAG,nvd_kev,8,72.5,62.5,,0.0,0.0,
+Multi-hop RAG,rev4_rev5,8,49.6,49.2,0.0,0.0,0.0,
+Multi-hop RAG,revoked,10,89.3,89.3,10.0,30.0,30.0,10.0
+Multi-hop RAG,version_drift,10,87.5,83.8,50.0,,,
+Multi-hop RAG,withdrawn,8,100.0,100.0,0.0,100.0,100.0,100.0
+Naive RAG,nvd_kev,8,95.0,91.7,,0.0,0.0,
+Naive RAG,rev4_rev5,8,86.2,86.7,12.5,0.0,0.0,
+Naive RAG,revoked,10,77.3,76.0,10.0,30.0,30.0,10.0
+Naive RAG,version_drift,10,72.5,65.8,100.0,,,
+Naive RAG,withdrawn,8,8.3,12.5,37.5,100.0,100.0,50.0
+ReAct agent (no verif.),nvd_kev,8,72.1,58.3,,100.0,100.0,
+ReAct agent (no verif.),rev4_rev5,8,91.8,86.2,0.0,100.0,100.0,
+ReAct agent (no verif.),revoked,10,89.3,86.0,0.0,100.0,100.0,30.0
+ReAct agent (no verif.),version_drift,10,95.2,92.2,0.0,,,
+ReAct agent (no verif.),withdrawn,8,100.0,100.0,0.0,100.0,100.0,100.0

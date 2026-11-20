@@ -1,0 +1,8 @@
+| system             |   f1 |   stale_adoption |   conflict_recall |
+|:-------------------|-----:|-----------------:|------------------:|
+| react_agent        | 91.4 |              0   |                 0 |
+| graph_verifier     | 92.5 |              0   |               100 |
+| evidence_agent     | 92.3 |              0   |               100 |
+| agent_no_verify    | 92.3 |              0   |               100 |
+| agent_no_authority | 95.9 |              2.5 |               100 |
+| agent_no_conflict  | 91.7 |              0   |                 0 |

@@ -1,0 +1,14 @@
+System,LLM calls / q,Input tok / q,Output tok / q,Tokens per correct answer,Latency mean (s),Latency p95 (s),Cached calls in timing run,Latency vs naive
+"Graph oracle (no LLM, upper bound)",0.0,0,0,0,0.0,0.0,0,0.0x
+Naive RAG,1.0,1738,100,2515,4.6,6.3,0,1.0x
+KG-RAG,1.0,4316,115,6415,7.6,11.9,0,1.7x
+Multi-hop RAG,3.3,6363,307,9969,12.7,18.0,0,2.8x
+CRAG,2.46,2705,159,5218,6.6,11.0,0,1.4x
+ReAct agent (A),2.53,4134,287,6572,13.4,21.1,0,2.9x
+Non-agentic graph verifier (B),1.01,4383,124,5275,8.1,12.1,0,1.8x
+Evidence-Aware Agent (C),2.53,4195,288,5138,13.8,21.0,0,3.0x
+- verification,2.53,4181,286,6144,14.0,21.7,0,3.0x
+- graph verification,3.47,5179,422,8151,18.2,31.2,0,4.0x
+- temporal verification,2.6,3605,297,4749,13.0,24.3,0,2.8x
+- authority verification,2.54,4160,292,5418,14.0,21.9,0,3.0x
+- explicit conflict detection,2.53,4182,284,5340,13.5,19.4,0,2.9x

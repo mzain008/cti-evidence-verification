@@ -1,0 +1,7 @@
+category,"Graph oracle (no LLM, upper bound)",Naive RAG,KG-RAG,Multi-hop RAG,CRAG,ReAct agent (A),Non-agentic graph verifier (B),Evidence-Aware Agent (C)
+benign_note,100.0,65.1,81.8,82.4,69.1,97.9,97.9,97.9
+conflict,100.0,59.7,59.5,72.0,52.9,69.9,92.2,91.8
+insufficient,100.0,4.0,2.0,56.0,6.0,22.0,100.0,100.0
+outdated,76.0,65.0,87.8,81.9,60.4,80.6,94.2,94.3
+relationships,76.0,24.7,40.0,55.3,30.8,66.4,88.0,94.5
+verification,100.0,41.7,45.7,71.6,49.7,85.8,93.4,98.5

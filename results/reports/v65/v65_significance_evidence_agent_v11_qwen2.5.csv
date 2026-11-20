@@ -1,0 +1,25 @@
+comparison,metric,n,ref,other,diff,test,p,p_holm,significant (0.05)
+"Evidence-Aware Agent (C), v4.1 vs Conflict-aware RAG baseline",list_f1,133,89.3,84.4,4.9,perm,0.0067,0.1015625,
+"Evidence-Aware Agent (C), v4.1 vs Conflict-aware RAG baseline",claim_correct,106,100.0,70.8,29.2,mcnemar,9.313225746154785e-10,1.955777406692505e-08,yes
+"Evidence-Aware Agent (C), v4.1 vs Conflict-aware RAG baseline",conflict_detect_correct,275,98.2,32.0,66.2,mcnemar,3.2626522339992623e-55,7.83036536159823e-54,yes
+"Evidence-Aware Agent (C), v4.1 vs Conflict-aware RAG baseline",resolution_correct,50,96.0,66.0,30.0,mcnemar,0.000274658203125,0.00494384765625,yes
+"Evidence-Aware Agent (C), v4.1 vs Conflict-aware RAG baseline",injected_adoption,22,0.0,4.5,-4.5,perm,1.0,1.0,
+"Evidence-Aware Agent (C), v4.1 vs Conflict-aware RAG baseline",stale_adoption,26,0.0,0.0,0.0,perm,1.0,1.0,
+"Evidence-Aware Agent (C), v4.1 vs Conflict-aware RAG baseline",abstain_correct,50,100.0,20.0,80.0,mcnemar,1.8189894035458565e-12,4.18367562815547e-11,yes
+"Evidence-Aware Agent (C), v4.1 vs Conflict-aware RAG baseline",uar,122,0.0,0.3,-0.3,perm,1.0,1.0,
+"Evidence-Aware Agent (C), v4.1 vs Non-agentic graph verifier (B), v4.1",list_f1,133,89.3,87.7,1.6,perm,0.2138,1.0,
+"Evidence-Aware Agent (C), v4.1 vs Non-agentic graph verifier (B), v4.1",claim_correct,106,100.0,100.0,0.0,mcnemar,1.0,1.0,
+"Evidence-Aware Agent (C), v4.1 vs Non-agentic graph verifier (B), v4.1",conflict_detect_correct,275,98.2,99.6,-1.5,mcnemar,0.21875,1.0,
+"Evidence-Aware Agent (C), v4.1 vs Non-agentic graph verifier (B), v4.1",resolution_correct,50,96.0,96.0,0.0,mcnemar,1.0,1.0,
+"Evidence-Aware Agent (C), v4.1 vs Non-agentic graph verifier (B), v4.1",injected_adoption,22,0.0,0.0,0.0,perm,1.0,1.0,
+"Evidence-Aware Agent (C), v4.1 vs Non-agentic graph verifier (B), v4.1",stale_adoption,26,0.0,0.0,0.0,perm,1.0,1.0,
+"Evidence-Aware Agent (C), v4.1 vs Non-agentic graph verifier (B), v4.1",abstain_correct,50,100.0,100.0,0.0,mcnemar,1.0,1.0,
+"Evidence-Aware Agent (C), v4.1 vs Non-agentic graph verifier (B), v4.1",uar,125,0.0,0.0,0.0,perm,1.0,1.0,
+"Evidence-Aware Agent (C), v4.1 vs ReAct agent (A)",list_f1,133,89.3,83.5,5.8,perm,0.0003,0.0050999999999999995,yes
+"Evidence-Aware Agent (C), v4.1 vs ReAct agent (A)",claim_correct,106,100.0,77.4,22.6,mcnemar,1.1920928955078125e-07,2.2649765014648438e-06,yes
+"Evidence-Aware Agent (C), v4.1 vs ReAct agent (A)",conflict_detect_correct,275,98.2,80.7,17.5,mcnemar,1.1008055578187737e-11,2.421772227201302e-10,yes
+"Evidence-Aware Agent (C), v4.1 vs ReAct agent (A)",resolution_correct,50,96.0,76.0,20.0,mcnemar,0.00634765625,0.1015625,
+"Evidence-Aware Agent (C), v4.1 vs ReAct agent (A)",injected_adoption,22,0.0,0.0,0.0,perm,1.0,1.0,
+"Evidence-Aware Agent (C), v4.1 vs ReAct agent (A)",stale_adoption,26,0.0,0.0,0.0,perm,1.0,1.0,
+"Evidence-Aware Agent (C), v4.1 vs ReAct agent (A)",abstain_correct,50,100.0,44.0,56.0,mcnemar,7.450580596923828e-09,1.4901161193847656e-07,yes
+"Evidence-Aware Agent (C), v4.1 vs ReAct agent (A)",uar,124,0.0,1.8,-1.8,perm,0.129,1.0,

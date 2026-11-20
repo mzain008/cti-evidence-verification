@@ -1,0 +1,41 @@
+comparison,metric,n,ref,other,diff,test,p,p_holm,significant (0.05)
+Evidence-Aware Agent (C) vs - verification,list_f1,133,89.3,87.8,1.5,perm,0.5068,1.0,
+Evidence-Aware Agent (C) vs - verification,claim_correct,106,100.0,77.4,22.6,mcnemar,1.1920928955078125e-07,4.410743713378906e-06,yes
+Evidence-Aware Agent (C) vs - verification,conflict_detect_correct,275,96.7,96.7,0.0,mcnemar,1.0,1.0,
+Evidence-Aware Agent (C) vs - verification,resolution_correct,50,96.0,94.0,2.0,mcnemar,1.0,1.0,
+Evidence-Aware Agent (C) vs - verification,injected_adoption,22,0.0,0.0,0.0,perm,1.0,1.0,
+Evidence-Aware Agent (C) vs - verification,stale_adoption,26,0.0,0.0,0.0,perm,1.0,1.0,
+Evidence-Aware Agent (C) vs - verification,abstain_correct,50,100.0,44.0,56.0,mcnemar,7.450580596923828e-09,2.8312206268310547e-07,yes
+Evidence-Aware Agent (C) vs - verification,uar,124,0.0,0.0,0.0,perm,1.0,1.0,
+Evidence-Aware Agent (C) vs - graph verification,list_f1,133,89.3,76.8,12.5,perm,0.0,0.0,yes
+Evidence-Aware Agent (C) vs - graph verification,claim_correct,106,100.0,87.7,12.3,mcnemar,0.000244140625,0.00830078125,yes
+Evidence-Aware Agent (C) vs - graph verification,conflict_detect_correct,275,96.7,97.5,-0.7,mcnemar,0.5,1.0,
+Evidence-Aware Agent (C) vs - graph verification,resolution_correct,50,96.0,90.0,6.0,mcnemar,0.375,1.0,
+Evidence-Aware Agent (C) vs - graph verification,injected_adoption,22,0.0,0.0,0.0,perm,1.0,1.0,
+Evidence-Aware Agent (C) vs - graph verification,stale_adoption,26,0.0,0.0,0.0,perm,1.0,1.0,
+Evidence-Aware Agent (C) vs - graph verification,abstain_correct,50,100.0,82.0,18.0,mcnemar,0.00390625,0.125,
+Evidence-Aware Agent (C) vs - graph verification,uar,126,0.0,0.0,0.0,perm,1.0,1.0,
+Evidence-Aware Agent (C) vs - temporal verification,list_f1,133,89.3,83.0,6.3,perm,0.0034,0.1122,
+Evidence-Aware Agent (C) vs - temporal verification,claim_correct,106,100.0,100.0,0.0,mcnemar,1.0,1.0,
+Evidence-Aware Agent (C) vs - temporal verification,conflict_detect_correct,275,96.7,98.5,-1.8,mcnemar,0.0625,1.0,
+Evidence-Aware Agent (C) vs - temporal verification,resolution_correct,50,96.0,92.0,4.0,mcnemar,0.625,1.0,
+Evidence-Aware Agent (C) vs - temporal verification,injected_adoption,22,0.0,0.0,0.0,perm,1.0,1.0,
+Evidence-Aware Agent (C) vs - temporal verification,stale_adoption,26,0.0,0.0,0.0,perm,1.0,1.0,
+Evidence-Aware Agent (C) vs - temporal verification,abstain_correct,50,100.0,100.0,0.0,mcnemar,1.0,1.0,
+Evidence-Aware Agent (C) vs - temporal verification,uar,120,0.0,0.0,0.0,perm,1.0,1.0,
+Evidence-Aware Agent (C) vs - authority verification,list_f1,133,89.3,90.6,-1.4,perm,0.2913,1.0,
+Evidence-Aware Agent (C) vs - authority verification,claim_correct,106,100.0,86.8,13.2,mcnemar,0.0001220703125,0.00439453125,yes
+Evidence-Aware Agent (C) vs - authority verification,conflict_detect_correct,275,96.7,96.4,0.4,mcnemar,1.0,1.0,
+Evidence-Aware Agent (C) vs - authority verification,resolution_correct,50,96.0,64.0,32.0,mcnemar,0.00014495849609375,0.00507354736328125,yes
+Evidence-Aware Agent (C) vs - authority verification,injected_adoption,22,0.0,0.0,0.0,perm,1.0,1.0,
+Evidence-Aware Agent (C) vs - authority verification,stale_adoption,26,0.0,0.0,0.0,perm,1.0,1.0,
+Evidence-Aware Agent (C) vs - authority verification,abstain_correct,50,100.0,100.0,0.0,mcnemar,1.0,1.0,
+Evidence-Aware Agent (C) vs - authority verification,uar,126,0.0,0.0,0.0,perm,1.0,1.0,
+Evidence-Aware Agent (C) vs - explicit conflict detection,list_f1,133,89.3,86.8,2.5,perm,0.0052,0.16119999999999998,
+Evidence-Aware Agent (C) vs - explicit conflict detection,claim_correct,106,100.0,100.0,0.0,mcnemar,1.0,1.0,
+Evidence-Aware Agent (C) vs - explicit conflict detection,conflict_detect_correct,275,96.7,80.0,16.7,mcnemar,3.8029690507812575e-11,1.4831579298046904e-09,yes
+Evidence-Aware Agent (C) vs - explicit conflict detection,resolution_correct,50,96.0,78.0,18.0,mcnemar,0.01171875,0.3515625,
+Evidence-Aware Agent (C) vs - explicit conflict detection,injected_adoption,22,0.0,0.0,0.0,perm,1.0,1.0,
+Evidence-Aware Agent (C) vs - explicit conflict detection,stale_adoption,26,0.0,0.0,0.0,perm,1.0,1.0,
+Evidence-Aware Agent (C) vs - explicit conflict detection,abstain_correct,50,100.0,100.0,0.0,mcnemar,1.0,1.0,
+Evidence-Aware Agent (C) vs - explicit conflict detection,uar,126,0.0,0.0,0.0,perm,1.0,1.0,

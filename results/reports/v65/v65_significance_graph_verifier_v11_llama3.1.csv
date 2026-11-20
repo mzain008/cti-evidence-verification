@@ -1,0 +1,9 @@
+comparison,metric,n,ref,other,diff,test,p,p_holm,significant (0.05)
+"Non-agentic graph verifier (B), v4.1 vs Conflict-aware RAG baseline",list_f1,133,87.5,85.8,1.6,perm,0.447,1.0,
+"Non-agentic graph verifier (B), v4.1 vs Conflict-aware RAG baseline",claim_correct,106,100.0,23.6,76.4,mcnemar,8.271806125530277e-25,5.790264287871194e-24,yes
+"Non-agentic graph verifier (B), v4.1 vs Conflict-aware RAG baseline",conflict_detect_correct,275,100.0,56.0,44.0,mcnemar,7.52316384526264e-37,6.018531076210112e-36,yes
+"Non-agentic graph verifier (B), v4.1 vs Conflict-aware RAG baseline",resolution_correct,50,84.0,48.0,36.0,mcnemar,4.00543212890625e-05,0.0002002716064453125,yes
+"Non-agentic graph verifier (B), v4.1 vs Conflict-aware RAG baseline",injected_adoption,22,0.0,4.5,-4.5,perm,1.0,1.0,
+"Non-agentic graph verifier (B), v4.1 vs Conflict-aware RAG baseline",stale_adoption,26,0.0,0.0,0.0,perm,1.0,1.0,
+"Non-agentic graph verifier (B), v4.1 vs Conflict-aware RAG baseline",abstain_correct,50,100.0,14.0,86.0,mcnemar,2.2737367544323206e-13,1.3642420526593924e-12,yes
+"Non-agentic graph verifier (B), v4.1 vs Conflict-aware RAG baseline",uar,121,0.0,2.8,-2.8,perm,0.0604,0.2416,

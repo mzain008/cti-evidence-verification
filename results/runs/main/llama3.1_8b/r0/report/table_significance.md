@@ -1,0 +1,49 @@
+**Evidence-Aware Agent vs each system, per track: paired tests, Holm-corrected within track**
+
+| track    | baseline                | metric          |   n |   ref_mean |   baseline_mean |    diff | test    |      p |   p_holm |
+|:---------|:------------------------|:----------------|----:|-----------:|----------------:|--------:|:--------|-------:|---------:|
+| text     | Corrective RAG          | f1              |  40 |     0.4233 |          0.3134 |  0.1099 | perm    | 0.0322 |   0.4466 |
+| text     | Corrective RAG          | uar             |  33 |     0.4293 |          0.553  | -0.1237 | perm    | 0.0319 |   0.4466 |
+| text     | Corrective RAG          | evidence_recall |  60 |     0.5694 |          0.4111 |  0.1583 | perm    | 0.0001 |   0.002  |
+| text     | Corrective RAG          | claim_correct   |  20 |     0.6    |          0.4    |  0.2    | mcnemar | 0.3438 |   1      |
+| text     | KG-RAG                  | f1              |  40 |     0.4233 |          0.3716 |  0.0517 | perm    | 0.3625 |   1      |
+| text     | KG-RAG                  | uar             |  34 |     0.4167 |          0.5284 | -0.1118 | perm    | 0.1031 |   1      |
+| text     | KG-RAG                  | evidence_recall |  60 |     0.5694 |          0.5126 |  0.0569 | perm    | 0.0828 |   0.9108 |
+| text     | KG-RAG                  | claim_correct   |  20 |     0.6    |          0.15   |  0.45   | mcnemar | 0.0117 |   0.1992 |
+| text     | Multi-hop RAG           | f1              |  40 |     0.4233 |          0.4021 |  0.0212 | perm    | 0.5803 |   1      |
+| text     | Multi-hop RAG           | uar             |  28 |     0.2917 |          0.3831 | -0.0915 | perm    | 0.1078 |   1      |
+| text     | Multi-hop RAG           | evidence_recall |  60 |     0.5694 |          0.5244 |  0.045  | perm    | 0.1253 |   1      |
+| text     | Multi-hop RAG           | claim_correct   |  20 |     0.6    |          0.55   |  0.05   | mcnemar | 1      |   1      |
+| text     | Naive RAG               | f1              |  40 |     0.4233 |          0.3181 |  0.1052 | perm    | 0.0254 |   0.4064 |
+| text     | Naive RAG               | uar             |  29 |     0.3851 |          0.5172 | -0.1322 | perm    | 0.0292 |   0.438  |
+| text     | Naive RAG               | evidence_recall |  60 |     0.5694 |          0.4111 |  0.1583 | perm    | 0.0001 |   0.002  |
+| text     | Naive RAG               | claim_correct   |  20 |     0.6    |          0.25   |  0.35   | mcnemar | 0.0391 |   0.4688 |
+| text     | ReAct agent (no verif.) | f1              |  40 |     0.4233 |          0.4211 |  0.0022 | perm    | 0.623  |   1      |
+| text     | ReAct agent (no verif.) | uar             |  35 |     0.4333 |          0.4714 | -0.0381 | perm    | 0.1236 |   1      |
+| text     | ReAct agent (no verif.) | evidence_recall |  60 |     0.5694 |          0.5694 |  0      | perm    | 1      |   1      |
+| text     | ReAct agent (no verif.) | claim_correct   |  20 |     0.6    |          0.2    |  0.4    | mcnemar | 0.0078 |   0.1406 |
+| evidence | Corrective RAG          | f1              |  70 |     0.9269 |          0.7014 |  0.2255 | perm    | 0.0001 |   0.0016 |
+| evidence | Corrective RAG          | uar             |  66 |     0      |          0.2497 | -0.2497 | perm    | 0      |   0      |
+| evidence | Corrective RAG          | evidence_recall | 110 |     1      |          0.7598 |  0.2402 | perm    | 0      |   0      |
+| evidence | Corrective RAG          | claim_correct   |  50 |     1      |          0.3    |  0.7    | mcnemar | 0      |   0      |
+| evidence | Corrective RAG          | stale_adoption  |  34 |     0      |          0.2647 | -0.2647 | perm    | 0.0033 |   0.0429 |
+| evidence | KG-RAG                  | f1              |  70 |     0.9269 |          0.8408 |  0.0861 | perm    | 0.0244 |   0.244  |
+| evidence | KG-RAG                  | uar             |  63 |     0      |          0.0136 | -0.0136 | perm    | 0.2474 |   1      |
+| evidence | KG-RAG                  | evidence_recall | 110 |     1      |          0.9861 |  0.0139 | perm    | 0.0594 |   0.4752 |
+| evidence | KG-RAG                  | claim_correct   |  50 |     1      |          0.14   |  0.86   | mcnemar | 0      |   0      |
+| evidence | KG-RAG                  | stale_adoption  |  34 |     0      |          0.0882 | -0.0882 | perm    | 0.2472 |   1      |
+| evidence | Multi-hop RAG           | f1              |  70 |     0.9269 |          0.7499 |  0.1769 | perm    | 0.0006 |   0.009  |
+| evidence | Multi-hop RAG           | uar             |  58 |     0      |          0.0509 | -0.0509 | perm    | 0.0671 |   0.4752 |
+| evidence | Multi-hop RAG           | evidence_recall | 110 |     1      |          0.8079 |  0.1921 | perm    | 0      |   0      |
+| evidence | Multi-hop RAG           | claim_correct   |  50 |     1      |          0.56   |  0.44   | mcnemar | 0      |   0      |
+| evidence | Multi-hop RAG           | stale_adoption  |  34 |     0      |          0.0882 | -0.0882 | perm    | 0.2479 |   1      |
+| evidence | Naive RAG               | f1              |  70 |     0.9269 |          0.8059 |  0.121  | perm    | 0.0105 |   0.126  |
+| evidence | Naive RAG               | uar             |  69 |     0      |          0.1331 | -0.1331 | perm    | 0.0018 |   0.0252 |
+| evidence | Naive RAG               | evidence_recall | 110 |     1      |          0.7598 |  0.2402 | perm    | 0      |   0      |
+| evidence | Naive RAG               | claim_correct   |  50 |     1      |          0.12   |  0.88   | mcnemar | 0      |   0      |
+| evidence | Naive RAG               | stale_adoption  |  34 |     0      |          0.2059 | -0.2059 | perm    | 0.0156 |   0.1716 |
+| evidence | ReAct agent (no verif.) | f1              |  70 |     0.9269 |          0.9206 |  0.0063 | perm    | 0.2494 |   1      |
+| evidence | ReAct agent (no verif.) | uar             |  70 |     0      |          0.0171 | -0.0171 | perm    | 0.2494 |   1      |
+| evidence | ReAct agent (no verif.) | evidence_recall | 110 |     1      |          0.9742 |  0.0258 | perm    | 0.0328 |   0.2952 |
+| evidence | ReAct agent (no verif.) | claim_correct   |  50 |     1      |          0.36   |  0.64   | mcnemar | 0      |   0      |
+| evidence | ReAct agent (no verif.) | stale_adoption  |  34 |     0      |          0.0294 | -0.0294 | perm    | 1      |   1      |

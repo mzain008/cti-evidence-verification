@@ -1,0 +1,54 @@
+{"answer": "abstain: question needs language understanding", "ids": [], "verdict": null, "flags": [], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.000263214111328125, "qid": "ate-0028"}
+{"answer": "abstain: question needs language understanding", "ids": [], "verdict": null, "flags": [], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.00024080276489257812, "qid": "ate-0031"}
+{"answer": "abstain: question needs language understanding", "ids": [], "verdict": null, "flags": [], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.0002846717834472656, "qid": "ate-0003"}
+{"answer": "", "ids": ["M1022", "M1038"], "verdict": null, "flags": [], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.00022149085998535156, "qid": "mitigation-0025"}
+{"answer": "", "ids": ["M1047"], "verdict": null, "flags": [], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.00014495849609375, "qid": "mitigation-0019"}
+{"answer": "", "ids": ["M1022", "M1038", "M1047"], "verdict": null, "flags": [], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.0001690387725830078, "qid": "mitigation-0026"}
+{"answer": "abstain: question needs language understanding", "ids": [], "verdict": null, "flags": [], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.0002732276916503906, "qid": "attribution-0030"}
+{"answer": "abstain: question needs language understanding", "ids": [], "verdict": null, "flags": [], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.0004711151123046875, "qid": "attribution-0016"}
+{"answer": "abstain: question needs language understanding", "ids": [], "verdict": null, "flags": [], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.00029277801513671875, "qid": "attribution-0032"}
+{"answer": "abstain: no identifiers to look up", "ids": [], "verdict": null, "flags": [], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.00014853477478027344, "qid": "claim_t-0052"}
+{"answer": "abstain: no identifiers to look up", "ids": [], "verdict": null, "flags": [], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.000156402587890625, "qid": "claim_t-0048"}
+{"answer": "abstain: no identifiers to look up", "ids": [], "verdict": null, "flags": [], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.00013303756713867188, "qid": "claim_t-0025"}
+{"answer": "", "ids": [], "verdict": "UNSUPPORTED", "flags": [], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.00021958351135253906, "qid": "claim-0086"}
+{"answer": "", "ids": [], "verdict": "SUPPORTED", "flags": [], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.00017333030700683594, "qid": "claim-0013"}
+{"answer": "", "ids": [], "verdict": "SUPPORTED", "flags": [], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.00029397010803222656, "qid": "claim-0033"}
+{"answer": "", "ids": [], "verdict": "SUPPORTED", "flags": [], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.0001888275146484375, "qid": "claim-0011"}
+{"answer": "", "ids": [], "verdict": "SUPPORTED", "flags": [], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.00015020370483398438, "qid": "claim-0039"}
+{"answer": "", "ids": [], "verdict": "UNSUPPORTED", "flags": [], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.00020384788513183594, "qid": "claim-0056"}
+{"answer": "", "ids": [], "verdict": "UNSUPPORTED", "flags": [], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.00020885467529296875, "qid": "claim-0087"}
+{"answer": "", "ids": [], "verdict": "SUPPORTED", "flags": [], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.000255584716796875, "qid": "claim-0042"}
+{"answer": "", "ids": [], "verdict": "UNSUPPORTED", "flags": [], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.00017213821411132812, "qid": "claim-0055"}
+{"answer": "", "ids": [], "verdict": "UNSUPPORTED", "flags": [], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.0001876354217529297, "qid": "claim-0065"}
+{"answer": "", "ids": [], "verdict": "UNSUPPORTED", "flags": [], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.0001900196075439453, "qid": "claim-0085"}
+{"answer": "", "ids": [], "verdict": "SUPPORTED", "flags": [], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.00021648406982421875, "qid": "claim-0000"}
+{"answer": "abstain: no identifiers to look up", "ids": [], "verdict": null, "flags": [], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.00014972686767578125, "qid": "claim_n-0115"}
+{"answer": "abstain: no identifiers to look up", "ids": [], "verdict": null, "flags": [], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.00014901161193847656, "qid": "claim_n-0065"}
+{"answer": "abstain: no identifiers to look up", "ids": [], "verdict": null, "flags": [], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.0001327991485595703, "qid": "claim_n-0098"}
+{"answer": "", "ids": [], "verdict": "NOT_ENOUGH_INFO", "flags": [], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.00020647048950195312, "qid": "claim-0098"}
+{"answer": "", "ids": [], "verdict": "NOT_ENOUGH_INFO", "flags": [], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.00011372566223144531, "qid": "claim-0097"}
+{"answer": "", "ids": [], "verdict": "NOT_ENOUGH_INFO", "flags": [], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.00011277198791503906, "qid": "claim-0096"}
+{"answer": "", "ids": ["AC-3", "AC-4", "CA-7", "CM-2", "CM-6", "CM-7", "SC-7", "SI-10", "SI-15", "SI-3", "SI-4"], "verdict": null, "flags": [], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.00017023086547851562, "qid": "mitigation-0085"}
+{"answer": "", "ids": ["CA-7", "CA-8", "SI-10", "SI-2", "SI-3", "SI-4", "SI-7"], "verdict": null, "flags": [], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.0001494884490966797, "qid": "mitigation-0074"}
+{"answer": "", "ids": ["AC-4", "CA-7", "CM-2", "CM-6", "SC-7", "SI-3", "SI-4"], "verdict": null, "flags": [], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.00018787384033203125, "qid": "mitigation-0060"}
+{"answer": "", "ids": ["CWE-189", "CWE-190"], "verdict": null, "flags": [], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.00010251998901367188, "qid": "temporal-0104"}
+{"answer": "", "ids": ["CWE-74", "CWE-93"], "verdict": null, "flags": [], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 9.560585021972656e-05, "qid": "temporal-0105"}
+{"answer": "", "ids": ["CWE-754", "CWE-863"], "verdict": null, "flags": [], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.00012564659118652344, "qid": "temporal-0103"}
+{"answer": "abstain: question needs language understanding", "ids": [], "verdict": null, "flags": [], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.00013875961303710938, "qid": "rcm-0175"}
+{"answer": "abstain: question needs language understanding", "ids": [], "verdict": null, "flags": [], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.00015473365783691406, "qid": "rcm-0033"}
+{"answer": "abstain: question needs language understanding", "ids": [], "verdict": null, "flags": [], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.0002808570861816406, "qid": "rcm-0086"}
+{"answer": "", "ids": ["AC-17", "AC-2", "AC-3", "AC-6", "CM-2", "CM-6", "SI-10", "SI-16", "SI-3", "SI-4", "SI-7"], "verdict": null, "flags": [], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.000148773193359375, "qid": "temporal-0050"}
+{"answer": "", "ids": ["CA-8", "CM-3", "CM-5", "CM-8", "IA-7", "RA-9", "SA-10", "SA-11", "SC-34", "SI-2", "SI-7"], "verdict": null, "flags": [], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.00014829635620117188, "qid": "temporal-0056"}
+{"answer": "", "ids": ["AC-2", "AC-3", "AC-5", "AC-6", "CM-11", "CM-2", "CM-5", "IA-2"], "verdict": null, "flags": [], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.0001533031463623047, "qid": "temporal-0051"}
+{"answer": "", "ids": ["M1050"], "verdict": null, "flags": ["REVOKED"], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.00016164779663085938, "qid": "temporal-0019"}
+{"answer": "", "ids": ["M1020", "M1031"], "verdict": null, "flags": ["REVOKED"], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.0004584789276123047, "qid": "temporal-0016"}
+{"answer": "", "ids": ["M1013"], "verdict": null, "flags": ["REVOKED"], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.0001418590545654297, "qid": "temporal-0012"}
+{"answer": "abstain: question needs language understanding", "ids": [], "verdict": null, "flags": [], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.00019669532775878906, "qid": "tech_id-0061"}
+{"answer": "abstain: question needs language understanding", "ids": [], "verdict": null, "flags": [], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.00013136863708496094, "qid": "tech_id-0078"}
+{"answer": "abstain: question needs language understanding", "ids": [], "verdict": null, "flags": [], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.00021576881408691406, "qid": "tech_id-0020"}
+{"answer": "", "ids": ["M1018", "M1028", "M1038", "M1053"], "verdict": null, "flags": [], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.0002791881561279297, "qid": "temporal-0071"}
+{"answer": "", "ids": ["M1028", "M1038"], "verdict": null, "flags": [], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.00020384788513183594, "qid": "temporal-0088"}
+{"answer": "", "ids": ["M1018", "M1037", "M1054", "M1057"], "verdict": null, "flags": [], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.00016617774963378906, "qid": "temporal-0068"}
+{"answer": "", "ids": ["SR-9"], "verdict": null, "flags": ["WITHDRAWN"], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.00013899803161621094, "qid": "temporal-0042"}
+{"answer": "", "ids": ["CA-8"], "verdict": null, "flags": ["WITHDRAWN"], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.00014710426330566406, "qid": "temporal-0043"}
+{"answer": "", "ids": ["CP-4"], "verdict": null, "flags": ["WITHDRAWN"], "citations": [], "retrieved": [], "usage": {"calls": 0}, "latency": 0.00012135505676269531, "qid": "temporal-0031"}

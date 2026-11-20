@@ -1,0 +1,46 @@
+track,baseline,metric,n,ref_mean,baseline_mean,diff,test,p,p_holm
+text,Corrective RAG,f1,40,0.3142,0.3365,-0.0222,perm,0.5258,1.0
+text,Corrective RAG,uar,32,0.5625,0.5302,0.0323,perm,0.455,1.0
+text,Corrective RAG,evidence_recall,60,0.4713,0.4167,0.0546,perm,0.0557,1.0
+text,Corrective RAG,claim_correct,20,0.65,0.45,0.2,mcnemar,0.2188,1.0
+text,KG-RAG,f1,40,0.3142,0.2871,0.0271,perm,0.6416,1.0
+text,KG-RAG,uar,34,0.5882,0.652,-0.0637,perm,0.4792,1.0
+text,KG-RAG,evidence_recall,60,0.4713,0.4874,-0.0161,perm,0.6948,1.0
+text,KG-RAG,claim_correct,20,0.65,0.7,-0.05,mcnemar,1.0,1.0
+text,Multi-hop RAG,f1,40,0.3142,0.2767,0.0376,perm,0.3043,1.0
+text,Multi-hop RAG,uar,22,0.4318,0.4924,-0.0606,perm,0.496,1.0
+text,Multi-hop RAG,evidence_recall,60,0.4713,0.4317,0.0396,perm,0.3123,1.0
+text,Multi-hop RAG,claim_correct,20,0.65,0.45,0.2,mcnemar,0.2891,1.0
+text,Naive RAG,f1,40,0.3142,0.276,0.0383,perm,0.4208,1.0
+text,Naive RAG,uar,29,0.5172,0.5805,-0.0632,perm,0.4706,1.0
+text,Naive RAG,evidence_recall,60,0.4713,0.3917,0.0796,perm,0.0037,0.074
+text,Naive RAG,claim_correct,20,0.65,0.6,0.05,mcnemar,1.0,1.0
+text,ReAct agent (no verif.),f1,40,0.3142,0.3356,-0.0213,perm,0.1258,1.0
+text,ReAct agent (no verif.),uar,37,0.5946,0.5919,0.0027,perm,1.0,1.0
+text,ReAct agent (no verif.),evidence_recall,60,0.4713,0.4713,0.0,perm,1.0,1.0
+text,ReAct agent (no verif.),claim_correct,20,0.65,0.6,0.05,mcnemar,1.0,1.0
+evidence,Corrective RAG,f1,64,0.9181,0.6724,0.2457,perm,0.0,0.0
+evidence,Corrective RAG,uar,58,0.0,0.2155,-0.2155,perm,0.0,0.0
+evidence,Corrective RAG,evidence_recall,104,1.0,0.7731,0.2269,perm,0.0,0.0
+evidence,Corrective RAG,claim_correct,40,1.0,0.675,0.325,mcnemar,0.0002,0.0046
+evidence,Corrective RAG,stale_adoption,28,0.0,0.0,0.0,perm,1.0,1.0
+evidence,KG-RAG,f1,64,0.9181,0.8551,0.063,perm,0.0433,0.6062
+evidence,KG-RAG,uar,62,0.0,0.0276,-0.0276,perm,0.1229,1.0
+evidence,KG-RAG,evidence_recall,104,1.0,0.9877,0.0123,perm,0.2532,1.0
+evidence,KG-RAG,claim_correct,40,1.0,0.925,0.075,mcnemar,0.25,1.0
+evidence,KG-RAG,stale_adoption,28,0.0,0.1071,-0.1071,perm,0.253,1.0
+evidence,Multi-hop RAG,f1,64,0.9181,0.7551,0.163,perm,0.0017,0.0289
+evidence,Multi-hop RAG,uar,53,0.0,0.014,-0.014,perm,0.2449,1.0
+evidence,Multi-hop RAG,evidence_recall,104,1.0,0.8106,0.1894,perm,0.0,0.0
+evidence,Multi-hop RAG,claim_correct,40,1.0,0.675,0.325,mcnemar,0.0002,0.0046
+evidence,Multi-hop RAG,stale_adoption,28,0.0,0.0714,-0.0714,perm,0.4987,1.0
+evidence,Naive RAG,f1,64,0.9181,0.9294,-0.0113,perm,0.6605,1.0
+evidence,Naive RAG,uar,64,0.0,0.0094,-0.0094,perm,0.4985,1.0
+evidence,Naive RAG,evidence_recall,104,1.0,0.7731,0.2269,perm,0.0,0.0
+evidence,Naive RAG,claim_correct,40,1.0,0.875,0.125,mcnemar,0.0625,0.8125
+evidence,Naive RAG,stale_adoption,28,0.0,0.0357,-0.0357,perm,1.0,1.0
+evidence,ReAct agent (no verif.),f1,64,0.9181,0.8877,0.0304,perm,0.0297,0.4455
+evidence,ReAct agent (no verif.),uar,62,0.0,0.0133,-0.0133,perm,0.1196,1.0
+evidence,ReAct agent (no verif.),evidence_recall,104,1.0,0.8676,0.1324,perm,0.0,0.0
+evidence,ReAct agent (no verif.),claim_correct,40,1.0,0.8,0.2,mcnemar,0.0078,0.125
+evidence,ReAct agent (no verif.),stale_adoption,28,0.0,0.1071,-0.1071,perm,0.2441,1.0

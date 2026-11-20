@@ -1,0 +1,10 @@
+| comparison                                                          | metric                  |   n |   ref |   other |   diff | test    |           p |      p_holm | significant (0.05)   |
+|:--------------------------------------------------------------------|:------------------------|----:|------:|--------:|-------:|:--------|------------:|------------:|:---------------------|
+| Non-agentic graph verifier (B), v4.1 vs Conflict-aware RAG baseline | list_f1                 | 133 |  87.7 |    84.4 |    3.2 | perm    | 0.0572      | 0.2288      |                      |
+| Non-agentic graph verifier (B), v4.1 vs Conflict-aware RAG baseline | claim_correct           | 106 | 100   |    70.8 |   29.2 | mcnemar | 9.31323e-10 | 5.58794e-09 | yes                  |
+| Non-agentic graph verifier (B), v4.1 vs Conflict-aware RAG baseline | conflict_detect_correct | 275 |  99.6 |    32   |   67.6 | mcnemar | 2.03916e-56 | 1.63133e-55 | yes                  |
+| Non-agentic graph verifier (B), v4.1 vs Conflict-aware RAG baseline | resolution_correct      |  50 |  96   |    66   |   30   | mcnemar | 0.000274658 | 0.00137329  | yes                  |
+| Non-agentic graph verifier (B), v4.1 vs Conflict-aware RAG baseline | injected_adoption       |  22 |   0   |     4.5 |   -4.5 | perm    | 1           | 1           |                      |
+| Non-agentic graph verifier (B), v4.1 vs Conflict-aware RAG baseline | stale_adoption          |  26 |   0   |     0   |    0   | perm    | 1           | 1           |                      |
+| Non-agentic graph verifier (B), v4.1 vs Conflict-aware RAG baseline | abstain_correct         |  50 | 100   |    20   |   80   | mcnemar | 1.81899e-12 | 1.27329e-11 | yes                  |
+| Non-agentic graph verifier (B), v4.1 vs Conflict-aware RAG baseline | uar                     | 122 |   0   |     0.3 |   -0.3 | perm    | 1           | 1           |                      |

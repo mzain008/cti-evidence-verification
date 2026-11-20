@@ -1,0 +1,21 @@
+system,subtype,n,f1,recall,stale_adoption,flag_correct,staleness_aware,replacement_found
+− authority,nvd_kev,10,80.0,70.0,,0.0,0.0,
+− authority,rev4_rev5,10,89.1,81.2,0.0,100.0,100.0,
+− authority,revoked,10,88.0,83.6,0.0,100.0,100.0,100.0
+− authority,version_drift,10,91.5,85.8,0.0,,,
+− authority,withdrawn,10,100.0,100.0,0.0,100.0,100.0,100.0
+− graph tools,nvd_kev,10,86.7,80.0,,100.0,100.0,
+− graph tools,rev4_rev5,10,23.6,14.4,10.0,100.0,100.0,
+− graph tools,revoked,10,65.8,54.7,0.0,100.0,100.0,100.0
+− graph tools,version_drift,10,83.6,75.8,0.0,,,
+− graph tools,withdrawn,10,100.0,100.0,0.0,100.0,100.0,100.0
+− temporal,nvd_kev,10,100.0,100.0,,100.0,100.0,
+− temporal,rev4_rev5,10,79.0,74.7,20.0,10.0,10.0,
+− temporal,revoked,10,79.2,70.4,0.0,60.0,90.0,80.0
+− temporal,version_drift,10,87.6,80.0,0.0,,,
+− temporal,withdrawn,10,80.0,80.0,0.0,100.0,100.0,80.0
+Evidence-Aware Agent,nvd_kev,10,100.0,100.0,,100.0,100.0,
+Evidence-Aware Agent,rev4_rev5,10,89.1,81.2,0.0,100.0,100.0,
+Evidence-Aware Agent,revoked,10,88.0,83.6,0.0,100.0,100.0,100.0
+Evidence-Aware Agent,version_drift,10,91.5,85.8,0.0,,,
+Evidence-Aware Agent,withdrawn,10,100.0,100.0,0.0,100.0,100.0,100.0

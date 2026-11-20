@@ -1,0 +1,26 @@
+| comparison                                                             | metric                  |   n |   ref |   other |   diff | test    |           p |      p_holm | significant (0.05)   |
+|:-----------------------------------------------------------------------|:------------------------|----:|------:|--------:|-------:|:--------|------------:|------------:|:---------------------|
+| Evidence-Aware Agent (C), v4.1 vs Non-agentic graph verifier (B), v4.1 | list_f1                 | 116 |  93.1 |    89.7 |    3.3 | perm    | 0.1471      | 1           |                      |
+| Evidence-Aware Agent (C), v4.1 vs Non-agentic graph verifier (B), v4.1 | claim_correct           | 106 | 100   |   100   |    0   | mcnemar | 1           | 1           |                      |
+| Evidence-Aware Agent (C), v4.1 vs Non-agentic graph verifier (B), v4.1 | conflict_detect_correct | 258 | 100   |   100   |    0   | mcnemar | 1           | 1           |                      |
+| Evidence-Aware Agent (C), v4.1 vs Non-agentic graph verifier (B), v4.1 | resolution_correct      |  50 |  88   |    88   |    0   | mcnemar | 1           | 1           |                      |
+| Evidence-Aware Agent (C), v4.1 vs Non-agentic graph verifier (B), v4.1 | injected_adoption       |  22 |   0   |     0   |    0   | perm    | 1           | 1           |                      |
+| Evidence-Aware Agent (C), v4.1 vs Non-agentic graph verifier (B), v4.1 | stale_adoption          |  25 |   0   |     0   |    0   | perm    | 1           | 1           |                      |
+| Evidence-Aware Agent (C), v4.1 vs Non-agentic graph verifier (B), v4.1 | abstain_correct         |  50 | 100   |   100   |    0   | mcnemar | 1           | 1           |                      |
+| Evidence-Aware Agent (C), v4.1 vs Non-agentic graph verifier (B), v4.1 | uar                     | 108 |   0   |     0   |    0   | perm    | 1           | 1           |                      |
+| Evidence-Aware Agent (C), v4.1 vs Conflict-aware RAG baseline          | list_f1                 | 116 |  93.1 |    85.4 |    7.7 | perm    | 0.0011      | 0.0143      | yes                  |
+| Evidence-Aware Agent (C), v4.1 vs Conflict-aware RAG baseline          | claim_correct           | 106 | 100   |    19.8 |   80.2 | mcnemar | 5.16988e-26 | 1.08567e-24 | yes                  |
+| Evidence-Aware Agent (C), v4.1 vs Conflict-aware RAG baseline          | conflict_detect_correct | 258 | 100   |    57   |   43   | mcnemar | 7.70372e-34 | 1.69482e-32 | yes                  |
+| Evidence-Aware Agent (C), v4.1 vs Conflict-aware RAG baseline          | resolution_correct      |  50 |  88   |    32   |   56   | mcnemar | 5.7742e-08  | 9.23872e-07 | yes                  |
+| Evidence-Aware Agent (C), v4.1 vs Conflict-aware RAG baseline          | injected_adoption       |  22 |   0   |    31.8 |  -31.8 | perm    | 0.0178      | 0.1958      |                      |
+| Evidence-Aware Agent (C), v4.1 vs Conflict-aware RAG baseline          | stale_adoption          |  25 |   0   |     4   |   -4   | perm    | 1           | 1           |                      |
+| Evidence-Aware Agent (C), v4.1 vs Conflict-aware RAG baseline          | abstain_correct         |  50 | 100   |    22   |   78   | mcnemar | 3.63798e-12 | 6.18456e-11 | yes                  |
+| Evidence-Aware Agent (C), v4.1 vs Conflict-aware RAG baseline          | uar                     | 116 |   0   |     9.4 |   -9.4 | perm    | 0.0001      | 0.0014      | yes                  |
+| Evidence-Aware Agent (C), v4.1 vs ReAct agent (A)                      | list_f1                 | 116 |  93.1 |    83.7 |    9.3 | perm    | 0           | 0           | yes                  |
+| Evidence-Aware Agent (C), v4.1 vs ReAct agent (A)                      | claim_correct           | 106 | 100   |    50.9 |   49.1 | mcnemar | 4.44089e-16 | 8.88178e-15 | yes                  |
+| Evidence-Aware Agent (C), v4.1 vs ReAct agent (A)                      | conflict_detect_correct | 258 | 100   |    80.6 |   19.4 | mcnemar | 1.77636e-15 | 3.37508e-14 | yes                  |
+| Evidence-Aware Agent (C), v4.1 vs ReAct agent (A)                      | resolution_correct      |  50 |  88   |    40   |   48   | mcnemar | 1.19209e-07 | 1.78814e-06 | yes                  |
+| Evidence-Aware Agent (C), v4.1 vs ReAct agent (A)                      | injected_adoption       |  22 |   0   |    36.4 |  -36.4 | perm    | 0.0063      | 0.0756      |                      |
+| Evidence-Aware Agent (C), v4.1 vs ReAct agent (A)                      | stale_adoption          |  25 |   0   |     4   |   -4   | perm    | 1           | 1           |                      |
+| Evidence-Aware Agent (C), v4.1 vs ReAct agent (A)                      | abstain_correct         |  50 | 100   |    16   |   84   | mcnemar | 4.54747e-13 | 8.18545e-12 | yes                  |
+| Evidence-Aware Agent (C), v4.1 vs ReAct agent (A)                      | uar                     | 115 |   0   |     9.6 |   -9.6 | perm    | 0           | 0           | yes                  |
